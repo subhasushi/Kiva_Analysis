@@ -26,22 +26,30 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
+
 <body>
     <div class="jumbotron">
-      
+      <div class="container">
 
-        <a href="topCountriesByLoanCount" target="_blank">
-            <button type="button" class="btn btn-outline-secondary">Top Countries by amount</button>
-        </a>
-        <a href="/view_clusters">
-            <button type="button" class="btn btn-outline-secondary">Cluster demo</button>
-        </a>
+        
+            <h1 class="text-center text-uppercase text-white" id="heading1">Betterworld With Kiva</h1>  
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                      <img class="img-fluid" src="../static/images/profile1.jpg" alt="" style="width:100%">
+                  </div>
+                </div>
+            <h2>About</h2>
+            <p>Kiva is an international nonprofit, founded in 2005 and based in San Francisco, with a mission to connect people through lending, to alleviate poverty. By lending through Kiva , anyone can support people looking to create a better future for themselves, their families and their communities.Total donation goes to public and data is Public</p>
+        </div>      
     </div>
 
     <div class="container-fluid">
-        <div id="map"></div>
+    
+      <h2 class="text-center text-uppercase text-white">Global Map Showing Kiva Loan Distribution</h2>
+      <div id="map"></div>
     </div>
     
+    <h2 class="text-center text-uppercase text-white">Gender Analysis</h2>
     <div class="showcase__section" id="bubble">
                 <div class="spacer --small"></div>
                 <div id="bubbleplots">
@@ -51,10 +59,24 @@
                     <div class="control-row">
                       Country: <select class="countrydata">
                       </select>
+                      <!-- <h2 class="text-center text-uppercase text-white">Top Three Borrower</h2> -->
+                      <div class="container">
+                          
+                          <a href="topCountriesByLoanCount" class="btn btn-primary btn-block" role="button" target="_blank">Top Countries by Loan Count</a>
+                        
+                          
+                        </div>
+                      
+
+                       
+                      
+
+                    </div>
                   </div>
                 </div>
               </div>
               <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
               <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+              
+                         
 </body>
-</html>
