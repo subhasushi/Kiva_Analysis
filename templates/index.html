@@ -28,7 +28,18 @@
 </head>
 <body>
     <div class="jumbotron">
+      <div class="control-row">
+        Country: <select class="countrydata">
+        </select>
+
+        <a href="topCountriesByLoanCount" target="_blank">
+            <button type="button" class="btn btn-outline-secondary">Top Countries by amount</button>
+        </a>
+        <a href="/view_clusters">
+            <button type="button" class="btn btn-outline-secondary">Cluster demo</button>
+        </a>
     </div>
+
     <div class="container-fluid">
         <div id="map"></div>
     </div>
@@ -39,13 +50,7 @@
                   <div class="bubbleplot" data-num="0">
                     <div class = "plot" id="plot"></div>
                     <div class = "plot" id="sectorplot"></div>
-                    <div class="control-row">
-                      Country: <select class="countrydata">
-                      </select>
-
-                      <a href="topCountriesByLoanCount" target="_blank">Top Countries by Loan Count</a>
-
-                    </div>
+                    
                   </div>
                 </div>
               </div>
