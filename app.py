@@ -15,7 +15,7 @@ pymysql.install_as_MySQLdb()
 # Create Engine and Pass in MySQL Connection
 
 db_url = os.environ['CLEARDB_DATABASE_URL']
-engine = create_engine(db_url, pool_recycle=300)
+engine = create_engine(db_url, pool_recycle=300, pool_pre_ping=True)
 
 #################################################
 # Database Setup
@@ -59,6 +59,12 @@ from flask import (
 # Flask Setup
 #################################################
 app = Flask(__name__)
+
+@app.teardown_request
+def session_clear(exception=None):
+    session.autoflush()
+    if exception and session.is_active:
+        session.rollback()
 
 # create route that renders index.html template
 @app.route("/")
