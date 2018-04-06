@@ -337,7 +337,7 @@ def getNewLoanPrediction():
         samples = predicted_df
         samples = samples.drop_duplicates()
         
-        samples = samples[:10][["country", "loan_amount","sector_name","activity_name", "borrower_count","class"]].to_dict(orient='records')
+        samples = samples[:5][["country", "loan_amount","sector_name","activity_name", "borrower_count","class"]].to_dict(orient='records')
 
     return jsonify(samples)
 
