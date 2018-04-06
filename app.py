@@ -62,7 +62,6 @@ app = Flask(__name__)
 
 @app.teardown_request
 def session_clear(exception=None):
-    session.autoflush()
     if exception and session.is_active:
         session.rollback()
 
