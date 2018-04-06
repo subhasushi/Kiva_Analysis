@@ -15,7 +15,7 @@ pymysql.install_as_MySQLdb()
 # Create Engine and Pass in MySQL Connection
 
 db_url = os.environ['CLEARDB_DATABASE_URL']
-engine = create_engine(db_url)
+engine = create_engine(db_url, pool_recycle=300)
 
 #################################################
 # Database Setup
