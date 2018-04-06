@@ -34,7 +34,7 @@ conn = engine.connect()
 
 loans = Base.classes.loans
 country = Base.classes.country
-flags = Base.classes.flags
+# flags = Base.classes.flags
 
 # Create empty list to get column names for querying
 

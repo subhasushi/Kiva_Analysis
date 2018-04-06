@@ -8,8 +8,6 @@ from sklearn.metrics import silhouette_samples, silhouette_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-import seaborn as sns
-
 import pickle
 
 import json
