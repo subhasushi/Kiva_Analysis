@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top 3 Countries by Loan Count</title>
+
+</head>
+<body>
+
+
+        <div class = "barplot" id="barplot"></div>
+
+        
+
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script type="text/javascript">
+            var url3 = "/topCountries";
+            Plotly.d3.json(url3, function(error, response) {
+                console.log(response)
+                countryList = []
+                loanCount = []
+                for(i=0; i<response.length; i++){
+                    countryList.push(response[i].Country)
+                    loanCount.push(response[i].NumberOfLoans)
+                }
+                 var trace1 = {
+                 x: countryList,
+                 y:  loanCount,
+                 type: 'bar',
+                //  name: "Top Countries Based on Loan Count",
+                };
+                var data = [trace1];
+                var layout = {
+                title: "Top Countries Based on Loan Count",
+                
+            };
+            Plotly.newPlot("barplot", data, layout);
+            });   
+        
+        </script>
+
+<div>
+    <h1>Top 3 Countries</h1>
+                      
+    <h2>Top Sectors in Each Country</h2>
+
+ 
+
+        <div class="row">
+            <div class="col-md-4">
+                
+                    <div class="pieplot" id="pieplot"></div>
+
+                                
+                    <script type="text/javascript">
+                        var url4 = "/philippinesData";
+                        Plotly.d3.json(url4, function (error, response) {
+                            console.log(response)
+                            sectorNames = []
+                            loanCount = []
+                            lenderCount = []
+                            for (i = 0; i < response.length; i++) {
+                                sectorNames.push(response[i][0])
+                                loanCount.push(response[i][4])
+                                lenderCount.push(response[i][5])
+                            }
+                            var trace1 = {
+                                values: loanCount,
+                                labels: sectorNames,
+                                type: 'pie',
+                                //  name: "Top Countries Based on Loan Count",
+                            };
+                            var data = [trace1];
+                            var layout = {
+                                title: "Top sectors in Philippines",
+                            };
+                            Plotly.newPlot("pieplot", data, layout);
+                        });
+                    </script>
+
+                        <a href="http://databank.worldbank.org/data/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=PHL"
+                        target="_blank">World Bank Data</a>
+
+                    
+
+                    
+                         
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class = "pieplot2" id="pieplot2"> </div>
+                            <script type="text/javascript">
+            
+                                var url5 = "/kenyaData";
+                    
+                                Plotly.d3.json(url5, function(error, response) {
+                    
+                                    console.log(response)
+                                    sectorNames = []
+                                    loanCount = []
+                                    lenderCount = []
+                    
+                    
+                                    for(i=0; i<response.length; i++){
+                                        sectorNames.push(response[i][0])
+                                        loanCount.push(response[i][4])
+                                        lenderCount.push(response[i][5])
+                                    }
+                    
+                                        var trace1 = {
+                                        values: loanCount,
+                                        labels:  sectorNames,
+                                        type: 'pie',
+                                    //  name: "Top Countries Based on Loan Count",
+                                    };
+                    
+                                    var data = [trace1];
+                    
+                                    var layout = {
+                                    title: "Top sectors in Kenya",
+                                    
+                                    
+                                };
+                    
+                                Plotly.newPlot("pieplot2", data, layout);
+                    
+                    
+                                });                  
+                            
+                        
+                        </script>
+
+                        <a href="http://databank.worldbank.org/data/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=KEN" target="_blank">World Bank Data</a>
+
+
+
+
+
+
+                   
+                </div>
+
+
+                <div class="col-md-4">
+
+                        <div class = "pieplot3" id="pieplot3"></div>
+
+                                <script type="text/javascript">
+            
+                                    var url6 = "/peruData";
+                        
+                                    Plotly.d3.json(url6, function(error, response) {
+                        
+                                        console.log(response)
+                                        sectorNames = []
+                                        loanCount = []
+                                        lenderCount = []
+                        
+                        
+                                        for(i=0; i<response.length; i++){
+                                            sectorNames.push(response[i][0])
+                                            loanCount.push(response[i][4])
+                                            lenderCount.push(response[i][5])
+                                        }
+                        
+                                            var trace1 = {
+                                            values: loanCount,
+                                            labels:  sectorNames,
+                                            type: 'pie',
+                                        //  name: "Top Countries Based on Loan Count",
+                                        };
+                        
+                                        var data = [trace1];
+                        
+                                        var layout = {
+                                        title: "Top sectors in Peru",
+                                        
+                                        
+                                    };
+                        
+                                    Plotly.newPlot("pieplot3", data, layout);
+                        
+                        
+                                    });  
+            
+                                </script>
+                                 <a href="http://databank.worldbank.org/data/views/reports/reportwidget.aspx?Report_Name=CountryProfile&Id=b450fd57&tbar=y&dd=y&inf=n&zm=n&country=PER" target="_blank">World Bank Data</a>
+
+
+
+
+
+
+                        
+                </div>

@@ -1,0 +1,604 @@
+[
+  {
+    "COUNTRY": "Afghanistan", 
+    "FEMALE": 2151, 
+    "LATITUDE": 33, 
+    "LONGITUDE": 67, 
+    "MALE": 1282
+  }, 
+  {
+    "COUNTRY": "Albania", 
+    "FEMALE": 1535, 
+    "LATITUDE": 41, 
+    "LONGITUDE": 20, 
+    "MALE": 1123
+  }, 
+  {
+    "COUNTRY": "Armenia", 
+    "FEMALE": 7020, 
+    "LATITUDE": 40, 
+    "LONGITUDE": 45, 
+    "MALE": 4212
+  }, 
+  {
+    "COUNTRY": "Azerbaijan", 
+    "FEMALE": 3051, 
+    "LATITUDE": 40, 
+    "LONGITUDE": 47, 
+    "MALE": 6090
+  }, 
+  {
+    "COUNTRY": "Belize", 
+    "FEMALE": 11, 
+    "LATITUDE": 17, 
+    "LONGITUDE": -88, 
+    "MALE": 160
+  }, 
+  {
+    "COUNTRY": "Benin", 
+    "FEMALE": 13259, 
+    "LATITUDE": 9, 
+    "LONGITUDE": 2, 
+    "MALE": 757
+  }, 
+  {
+    "COUNTRY": "Bhutan", 
+    "FEMALE": 1, 
+    "LATITUDE": 27, 
+    "LONGITUDE": 90, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Bolivia", 
+    "FEMALE": 63337, 
+    "LATITUDE": -16, 
+    "LONGITUDE": -63, 
+    "MALE": 13321
+  }, 
+  {
+    "COUNTRY": "Bosnia and Herzegovina", 
+    "FEMALE": 576, 
+    "LATITUDE": 43, 
+    "LONGITUDE": 17, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Brazil", 
+    "FEMALE": 1137, 
+    "LATITUDE": -14, 
+    "LONGITUDE": -51, 
+    "MALE": 418
+  }, 
+  {
+    "COUNTRY": "Bulgaria", 
+    "FEMALE": 87, 
+    "LATITUDE": 42, 
+    "LONGITUDE": 25, 
+    "MALE": 137
+  }, 
+  {
+    "COUNTRY": "Burkina Faso", 
+    "FEMALE": 11956, 
+    "LATITUDE": 12, 
+    "LONGITUDE": -1, 
+    "MALE": 3452
+  }, 
+  {
+    "COUNTRY": "Burundi", 
+    "FEMALE": 26198, 
+    "LATITUDE": -3, 
+    "LONGITUDE": 29, 
+    "MALE": 8310
+  }, 
+  {
+    "COUNTRY": "Cambodia", 
+    "FEMALE": 160676, 
+    "LATITUDE": 12, 
+    "LONGITUDE": 104, 
+    "MALE": 27882
+  }, 
+  {
+    "COUNTRY": "Cameroon", 
+    "FEMALE": 3104, 
+    "LATITUDE": 7, 
+    "LONGITUDE": 12, 
+    "MALE": 1655
+  }, 
+  {
+    "COUNTRY": "Canada", 
+    "FEMALE": 1, 
+    "LATITUDE": 56, 
+    "LONGITUDE": -106, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Chile", 
+    "FEMALE": 8203, 
+    "LATITUDE": -35, 
+    "LONGITUDE": -71, 
+    "MALE": 1389
+  }, 
+  {
+    "COUNTRY": "China", 
+    "FEMALE": 41, 
+    "LATITUDE": 35, 
+    "LONGITUDE": 104, 
+    "MALE": 92
+  }, 
+  {
+    "COUNTRY": "Colombia", 
+    "FEMALE": 17116, 
+    "LATITUDE": 4, 
+    "LONGITUDE": -74, 
+    "MALE": 9239
+  }, 
+  {
+    "COUNTRY": "Congo", 
+    "FEMALE": 2447, 
+    "LATITUDE": 0, 
+    "LONGITUDE": 15, 
+    "MALE": 936
+  }, 
+  {
+    "COUNTRY": "Costa Rica", 
+    "FEMALE": 3655, 
+    "LATITUDE": 9, 
+    "LONGITUDE": -83, 
+    "MALE": 2119
+  }, 
+  {
+    "COUNTRY": "Cote D'Ivoire", 
+    "FEMALE": 174, 
+    "LATITUDE": 7, 
+    "LONGITUDE": -5, 
+    "MALE": 335
+  }, 
+  {
+    "COUNTRY": "Dominican Republic", 
+    "FEMALE": 22583, 
+    "LATITUDE": 18, 
+    "LONGITUDE": -70, 
+    "MALE": 2328
+  }, 
+  {
+    "COUNTRY": "Ecuador", 
+    "FEMALE": 34360, 
+    "LATITUDE": -1, 
+    "LONGITUDE": -78, 
+    "MALE": 8921
+  }, 
+  {
+    "COUNTRY": "Egypt", 
+    "FEMALE": 1198, 
+    "LATITUDE": 26, 
+    "LONGITUDE": 30, 
+    "MALE": 1165
+  }, 
+  {
+    "COUNTRY": "El Salvador", 
+    "FEMALE": 33524, 
+    "LATITUDE": 13, 
+    "LONGITUDE": -88, 
+    "MALE": 20216
+  }, 
+  {
+    "COUNTRY": "Georgia", 
+    "FEMALE": 3195, 
+    "LATITUDE": 42, 
+    "LONGITUDE": 43, 
+    "MALE": 2778
+  }, 
+  {
+    "COUNTRY": "Ghana", 
+    "FEMALE": 33565, 
+    "LATITUDE": 7, 
+    "LONGITUDE": -1, 
+    "MALE": 3388
+  }, 
+  {
+    "COUNTRY": "Guatemala", 
+    "FEMALE": 35248, 
+    "LATITUDE": 15, 
+    "LONGITUDE": -90, 
+    "MALE": 4126
+  }, 
+  {
+    "COUNTRY": "Haiti", 
+    "FEMALE": 7911, 
+    "LATITUDE": 18, 
+    "LONGITUDE": -72, 
+    "MALE": 1772
+  }, 
+  {
+    "COUNTRY": "Honduras", 
+    "FEMALE": 11835, 
+    "LATITUDE": 15, 
+    "LONGITUDE": -86, 
+    "MALE": 5830
+  }, 
+  {
+    "COUNTRY": "India", 
+    "FEMALE": 32312, 
+    "LATITUDE": 20, 
+    "LONGITUDE": 78, 
+    "MALE": 399
+  }, 
+  {
+    "COUNTRY": "Indonesia", 
+    "FEMALE": 21870, 
+    "LATITUDE": 0, 
+    "LONGITUDE": 113, 
+    "MALE": 2840
+  }, 
+  {
+    "COUNTRY": "Iraq", 
+    "FEMALE": 1766, 
+    "LATITUDE": 33, 
+    "LONGITUDE": 43, 
+    "MALE": 2294
+  }, 
+  {
+    "COUNTRY": "Israel", 
+    "FEMALE": 387, 
+    "LATITUDE": 31, 
+    "LONGITUDE": 34, 
+    "MALE": 8
+  }, 
+  {
+    "COUNTRY": "Jordan", 
+    "FEMALE": 6354, 
+    "LATITUDE": 30, 
+    "LONGITUDE": 36, 
+    "MALE": 2378
+  }, 
+  {
+    "COUNTRY": "Kenya", 
+    "FEMALE": 137976, 
+    "LATITUDE": 0, 
+    "LONGITUDE": 37, 
+    "MALE": 71105
+  }, 
+  {
+    "COUNTRY": "Kosovo", 
+    "FEMALE": 984, 
+    "LATITUDE": 42, 
+    "LONGITUDE": 20, 
+    "MALE": 867
+  }, 
+  {
+    "COUNTRY": "Kyrgyzstan", 
+    "FEMALE": 13482, 
+    "LATITUDE": 41, 
+    "LONGITUDE": 74, 
+    "MALE": 1967
+  }, 
+  {
+    "COUNTRY": "Lao People's Democratic Republic", 
+    "FEMALE": 6282, 
+    "LATITUDE": 19, 
+    "LONGITUDE": 102, 
+    "MALE": 7285
+  }, 
+  {
+    "COUNTRY": "Lebanon", 
+    "FEMALE": 13428, 
+    "LATITUDE": 33, 
+    "LONGITUDE": 35, 
+    "MALE": 8676
+  }, 
+  {
+    "COUNTRY": "Lesotho", 
+    "FEMALE": 4294, 
+    "LATITUDE": -29, 
+    "LONGITUDE": 28, 
+    "MALE": 883
+  }, 
+  {
+    "COUNTRY": "Liberia", 
+    "FEMALE": 13071, 
+    "LATITUDE": 6, 
+    "LONGITUDE": -9, 
+    "MALE": 1786
+  }, 
+  {
+    "COUNTRY": "Madagascar", 
+    "FEMALE": 3747, 
+    "LATITUDE": -18, 
+    "LONGITUDE": 46, 
+    "MALE": 1103
+  }, 
+  {
+    "COUNTRY": "Malawi", 
+    "FEMALE": 16205, 
+    "LATITUDE": -13, 
+    "LONGITUDE": 34, 
+    "MALE": 183
+  }, 
+  {
+    "COUNTRY": "Mali", 
+    "FEMALE": 70050, 
+    "LATITUDE": 17, 
+    "LONGITUDE": -3, 
+    "MALE": 8245
+  }, 
+  {
+    "COUNTRY": "Mauritania", 
+    "FEMALE": 0, 
+    "LATITUDE": 21, 
+    "LONGITUDE": -10, 
+    "MALE": 1
+  }, 
+  {
+    "COUNTRY": "Mexico", 
+    "FEMALE": 38548, 
+    "LATITUDE": 23, 
+    "LONGITUDE": -102, 
+    "MALE": 9055
+  }, 
+  {
+    "COUNTRY": "Moldova", 
+    "FEMALE": 378, 
+    "LATITUDE": 47, 
+    "LONGITUDE": 28, 
+    "MALE": 316
+  }, 
+  {
+    "COUNTRY": "Mongolia", 
+    "FEMALE": 4575, 
+    "LATITUDE": 46, 
+    "LONGITUDE": 103, 
+    "MALE": 4062
+  }, 
+  {
+    "COUNTRY": "Mozambique", 
+    "FEMALE": 3821, 
+    "LATITUDE": -18, 
+    "LONGITUDE": 35, 
+    "MALE": 2895
+  }, 
+  {
+    "COUNTRY": "Myanmar (Burma)", 
+    "FEMALE": 6559, 
+    "LATITUDE": 21, 
+    "LONGITUDE": 95, 
+    "MALE": 2885
+  }, 
+  {
+    "COUNTRY": "Nepal", 
+    "FEMALE": 2203, 
+    "LATITUDE": 28, 
+    "LONGITUDE": 84, 
+    "MALE": 1
+  }, 
+  {
+    "COUNTRY": "Nicaragua", 
+    "FEMALE": 41152, 
+    "LATITUDE": 12, 
+    "LONGITUDE": -85, 
+    "MALE": 13358
+  }, 
+  {
+    "COUNTRY": "Nigeria", 
+    "FEMALE": 9061, 
+    "LATITUDE": 9, 
+    "LONGITUDE": 8, 
+    "MALE": 10031
+  }, 
+  {
+    "COUNTRY": "Pakistan", 
+    "FEMALE": 63584, 
+    "LATITUDE": 30, 
+    "LONGITUDE": 69, 
+    "MALE": 1062
+  }, 
+  {
+    "COUNTRY": "Palestine", 
+    "FEMALE": 4771, 
+    "LATITUDE": 31, 
+    "LONGITUDE": 35, 
+    "MALE": 7166
+  }, 
+  {
+    "COUNTRY": "Panama", 
+    "FEMALE": 107, 
+    "LATITUDE": 8, 
+    "LONGITUDE": -80, 
+    "MALE": 81
+  }, 
+  {
+    "COUNTRY": "Papua New Guinea", 
+    "FEMALE": 0, 
+    "LATITUDE": -6, 
+    "LONGITUDE": 143, 
+    "MALE": 1
+  }, 
+  {
+    "COUNTRY": "Paraguay", 
+    "FEMALE": 216986, 
+    "LATITUDE": -23, 
+    "LONGITUDE": -58, 
+    "MALE": 5486
+  }, 
+  {
+    "COUNTRY": "Peru", 
+    "FEMALE": 130925, 
+    "LATITUDE": -9, 
+    "LONGITUDE": -75, 
+    "MALE": 36890
+  }, 
+  {
+    "COUNTRY": "Philippines", 
+    "FEMALE": 267326, 
+    "LATITUDE": 12, 
+    "LONGITUDE": 121, 
+    "MALE": 20701
+  }, 
+  {
+    "COUNTRY": "Rwanda", 
+    "FEMALE": 49860, 
+    "LATITUDE": -1, 
+    "LONGITUDE": 29, 
+    "MALE": 23117
+  }, 
+  {
+    "COUNTRY": "Samoa", 
+    "FEMALE": 15900, 
+    "LATITUDE": -13, 
+    "LONGITUDE": -172, 
+    "MALE": 85
+  }, 
+  {
+    "COUNTRY": "Senegal", 
+    "FEMALE": 66354, 
+    "LATITUDE": 14, 
+    "LONGITUDE": -14, 
+    "MALE": 2950
+  }, 
+  {
+    "COUNTRY": "Sierra Leone", 
+    "FEMALE": 24441, 
+    "LATITUDE": 8, 
+    "LONGITUDE": -11, 
+    "MALE": 7639
+  }, 
+  {
+    "COUNTRY": "Solomon Islands", 
+    "FEMALE": 967, 
+    "LATITUDE": -9, 
+    "LONGITUDE": 160, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Somalia", 
+    "FEMALE": 196, 
+    "LATITUDE": 5, 
+    "LONGITUDE": 46, 
+    "MALE": 238
+  }, 
+  {
+    "COUNTRY": "South Africa", 
+    "FEMALE": 803, 
+    "LATITUDE": -30, 
+    "LONGITUDE": 22, 
+    "MALE": 237
+  }, 
+  {
+    "COUNTRY": "Sri Lanka", 
+    "FEMALE": 29, 
+    "LATITUDE": 7, 
+    "LONGITUDE": 80, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Suriname", 
+    "FEMALE": 23, 
+    "LATITUDE": 3, 
+    "LONGITUDE": -56, 
+    "MALE": 242
+  }, 
+  {
+    "COUNTRY": "Tajikistan", 
+    "FEMALE": 25263, 
+    "LATITUDE": 38, 
+    "LONGITUDE": 71, 
+    "MALE": 14777
+  }, 
+  {
+    "COUNTRY": "Tanzania", 
+    "FEMALE": 42465, 
+    "LATITUDE": -6, 
+    "LONGITUDE": 34, 
+    "MALE": 13920
+  }, 
+  {
+    "COUNTRY": "Thailand", 
+    "FEMALE": 158, 
+    "LATITUDE": 15, 
+    "LONGITUDE": 100, 
+    "MALE": 83
+  }, 
+  {
+    "COUNTRY": "The Democratic Republic of the Congo", 
+    "FEMALE": 72958, 
+    "LATITUDE": -4, 
+    "LONGITUDE": 21, 
+    "MALE": 9121
+  }, 
+  {
+    "COUNTRY": "Timor-Leste", 
+    "FEMALE": 3209, 
+    "LATITUDE": -8, 
+    "LONGITUDE": 125, 
+    "MALE": 446
+  }, 
+  {
+    "COUNTRY": "Togo", 
+    "FEMALE": 12911, 
+    "LATITUDE": 8, 
+    "LONGITUDE": 0, 
+    "MALE": 3216
+  }, 
+  {
+    "COUNTRY": "Turkey", 
+    "FEMALE": 2014, 
+    "LATITUDE": 38, 
+    "LONGITUDE": 35, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Uganda", 
+    "FEMALE": 66746, 
+    "LATITUDE": 1, 
+    "LONGITUDE": 32, 
+    "MALE": 41858
+  }, 
+  {
+    "COUNTRY": "Ukraine", 
+    "FEMALE": 3334, 
+    "LATITUDE": 48, 
+    "LONGITUDE": 31, 
+    "MALE": 1496
+  }, 
+  {
+    "COUNTRY": "United States", 
+    "FEMALE": 827, 
+    "LATITUDE": 37, 
+    "LONGITUDE": -95, 
+    "MALE": 772
+  }, 
+  {
+    "COUNTRY": "Uruguay", 
+    "FEMALE": 1, 
+    "LATITUDE": -32, 
+    "LONGITUDE": -55, 
+    "MALE": 0
+  }, 
+  {
+    "COUNTRY": "Vietnam", 
+    "FEMALE": 44112, 
+    "LATITUDE": 14, 
+    "LONGITUDE": 108, 
+    "MALE": 2242
+  }, 
+  {
+    "COUNTRY": "Yemen", 
+    "FEMALE": 7084, 
+    "LATITUDE": 15, 
+    "LONGITUDE": 48, 
+    "MALE": 1539
+  }, 
+  {
+    "COUNTRY": "Zambia", 
+    "FEMALE": 654, 
+    "LATITUDE": -13, 
+    "LONGITUDE": 27, 
+    "MALE": 672
+  }, 
+  {
+    "COUNTRY": "Zimbabwe", 
+    "FEMALE": 10716, 
+    "LATITUDE": -19, 
+    "LONGITUDE": 29, 
+    "MALE": 657
+  }
+]

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kiva Clusters</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+                    
+            <div class="col-md-6">
+                    <div id="cluster" style="padding:14px;">
+                            <button type="button" class="btn btn-sm" onclick="init()"> Get Latest Samples</button>
+                           <a href="/">
+                                <button type="button" class="btn btn-sm">
+                                        Home
+                                </button>
+                           </a>
+                            
+                            <button type="button" class="btn btn-sm" onclick="init()"> Get Latest Samples</button>
+                            <a href="https://github.com/taniamukherjee/Assignment_betterworld/blob/Sadhana/OptimizingNumberOfClusters_KMeans.ipynb">
+                                <button type="button" class="btn btn-sm">
+                                        Notebook
+                                </button>
+                           </a>
+                    </div>
+                    <div class="samples text-center">
+                        <table id="sample_table" class="table table-hover">
+                            <thead>
+                                <tr>   
+                                        <th>Activity</th>
+                                        <th>Borrower Count</th>
+                                        <th></th>
+                                        <th>Country</th>
+                                        <th>Loan Amount</th>
+                                        <th>Sector</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sample_tbody">
+
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="row">
+                            <div class="col-md-12 text-center">
+                                    <div id="cluster-title">
+                        
+                                    </div>
+                            </div>
+                                
+                        </div>  
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="numerical-statistics" class="text-center" style="font-size:14px;">
+                
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>  
+        <div class="row">
+                <div class="col-md-12">
+                        <div id="categorical-statistics" class="text-center">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div id="top-n-country">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div id="top-n-sector">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div id="top-n-activity">
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div id="top-n-status">
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+  
+    </div>
+
+    <script src="{{ url_for('static', filename='js/table.js') }}"></script>
+
+</body>
+</html>
