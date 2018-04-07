@@ -14,10 +14,10 @@ import pymysql
 pymysql.install_as_MySQLdb()
 # Create Engine and Pass in MySQL Connection
 
-db_url = os.environ['CLEARDB_DATABASE_URL']
-engine = create_engine(db_url, pool_recycle=300, pool_pre_ping=True)
+# db_url = os.environ['CLEARDB_DATABASE_URL']
+# engine = create_engine(db_url, pool_recycle=300, pool_pre_ping=True)
 
-# engine = create_engine(f"mysql://root:root@localhost:3306/kiva")
+engine = create_engine(f"mysql://root:root@localhost:3306/kiva")
 
 #################################################
 # Database Setup
@@ -345,7 +345,6 @@ def getNewLoanPrediction():
         samples = samples.drop_duplicates()
         
         samples = samples[:10][["country", "loan_amount","sector_name","activity_name", "borrower_count","class"]].to_dict(orient='records')
-
     return jsonify(samples)
 
 if __name__ == "__main__":

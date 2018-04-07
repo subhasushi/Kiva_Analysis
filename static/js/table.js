@@ -147,7 +147,8 @@ function init(){
                     .data(data)
                     .enter()
                     .append('tr')
-                    .on('click',function(d){
+                    .on('click',function(d,i){
+                        d3.select('#selected-sample').html(`<strong> Selected sample # ${i} </strong><br>`);
                         console.log('Clicked',d);
                         populateCluster(d['class']);
                     });
