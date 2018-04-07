@@ -17,6 +17,8 @@ pymysql.install_as_MySQLdb()
 db_url = os.environ['CLEARDB_DATABASE_URL']
 engine = create_engine(db_url, pool_recycle=300, pool_pre_ping=True)
 
+# engine = create_engine(f"mysql://root:root@localhost:3306/kiva")
+
 #################################################
 # Database Setup
 #################################################
